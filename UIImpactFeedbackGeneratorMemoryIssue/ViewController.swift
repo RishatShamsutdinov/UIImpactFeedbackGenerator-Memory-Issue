@@ -20,13 +20,19 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         timers = impactFeedbackGenerators.map({ generator in
-            return .scheduledTimer(
-                timeInterval: 0.05,
-                target: generator,
-                selector: #selector(generator.impactOccurred as () -> Void),
-                userInfo: nil,
-                repeats: true
-            )
+            return .scheduledTimer(withTimeInterval: 0.05, repeats: true) { _ in
+                generator.impactOccurred()
+
+                for _ in 0..<10 {
+                    DispatchQueue.global().async {
+                        for _ in 0...100 {
+                            autoreleasepool {
+                                let _ = arc4random()
+                            }
+                        }
+                    }
+                }
+            }
         })
     }
 
