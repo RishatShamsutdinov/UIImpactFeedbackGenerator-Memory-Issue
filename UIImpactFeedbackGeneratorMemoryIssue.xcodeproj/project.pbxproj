@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FDF0CBC12822665F00E9ACC6 /* UIImpacFeebackGeneratorMemoryIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIImpacFeebackGeneratorMemoryIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF0CBC12822665F00E9ACC6 /* UIImpactFeedbackGeneratorMemoryIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIImpactFeedbackGeneratorMemoryIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF0CBC42822665F00E9ACC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDF0CBC62822665F00E9ACC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FDF0CBC82822665F00E9ACC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		FDF0CBB82822665F00E9ACC6 = {
 			isa = PBXGroup;
 			children = (
-				FDF0CBC32822665F00E9ACC6 /* UIImpacFeebackGeneratorMemoryIssue */,
+				FDF0CBC32822665F00E9ACC6 /* UIImpactFeedbackGeneratorMemoryIssue */,
 				FDF0CBC22822665F00E9ACC6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		FDF0CBC22822665F00E9ACC6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FDF0CBC12822665F00E9ACC6 /* UIImpacFeebackGeneratorMemoryIssue.app */,
+				FDF0CBC12822665F00E9ACC6 /* UIImpactFeedbackGeneratorMemoryIssue.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FDF0CBC32822665F00E9ACC6 /* UIImpacFeebackGeneratorMemoryIssue */ = {
+		FDF0CBC32822665F00E9ACC6 /* UIImpactFeedbackGeneratorMemoryIssue */ = {
 			isa = PBXGroup;
 			children = (
 				FDF0CBC42822665F00E9ACC6 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				FDF0CBCF2822665F00E9ACC6 /* LaunchScreen.storyboard */,
 				FDF0CBD22822665F00E9ACC6 /* Info.plist */,
 			);
-			path = UIImpacFeebackGeneratorMemoryIssue;
+			path = UIImpactFeedbackGeneratorMemoryIssue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FDF0CBC02822665F00E9ACC6 /* UIImpacFeebackGeneratorMemoryIssue */ = {
+		FDF0CBC02822665F00E9ACC6 /* UIImpactFeedbackGeneratorMemoryIssue */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDF0CBD52822665F00E9ACC6 /* Build configuration list for PBXNativeTarget "UIImpacFeebackGeneratorMemoryIssue" */;
+			buildConfigurationList = FDF0CBD52822665F00E9ACC6 /* Build configuration list for PBXNativeTarget "UIImpactFeedbackGeneratorMemoryIssue" */;
 			buildPhases = (
 				FDF0CBBD2822665F00E9ACC6 /* Sources */,
 				FDF0CBBE2822665F00E9ACC6 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = UIImpacFeebackGeneratorMemoryIssue;
+			name = UIImpactFeedbackGeneratorMemoryIssue;
 			productName = UIImpacFeebackGeneratorMemoryIssue;
-			productReference = FDF0CBC12822665F00E9ACC6 /* UIImpacFeebackGeneratorMemoryIssue.app */;
+			productReference = FDF0CBC12822665F00E9ACC6 /* UIImpactFeedbackGeneratorMemoryIssue.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FDF0CBBC2822665F00E9ACC6 /* Build configuration list for PBXProject "UIImpacFeebackGeneratorMemoryIssue" */;
+			buildConfigurationList = FDF0CBBC2822665F00E9ACC6 /* Build configuration list for PBXProject "UIImpactFeedbackGeneratorMemoryIssue" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FDF0CBC02822665F00E9ACC6 /* UIImpacFeebackGeneratorMemoryIssue */,
+				FDF0CBC02822665F00E9ACC6 /* UIImpactFeedbackGeneratorMemoryIssue */,
 			);
 		};
 /* End PBXProject section */
@@ -291,7 +291,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7F88VD5B8U;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UIImpacFeebackGeneratorMemoryIssue/Info.plist;
+				INFOPLIST_FILE = UIImpactFeedbackGeneratorMemoryIssue/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +319,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7F88VD5B8U;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UIImpacFeebackGeneratorMemoryIssue/Info.plist;
+				INFOPLIST_FILE = UIImpactFeedbackGeneratorMemoryIssue/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -341,7 +341,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FDF0CBBC2822665F00E9ACC6 /* Build configuration list for PBXProject "UIImpacFeebackGeneratorMemoryIssue" */ = {
+		FDF0CBBC2822665F00E9ACC6 /* Build configuration list for PBXProject "UIImpactFeedbackGeneratorMemoryIssue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDF0CBD32822665F00E9ACC6 /* Debug */,
@@ -350,7 +350,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FDF0CBD52822665F00E9ACC6 /* Build configuration list for PBXNativeTarget "UIImpacFeebackGeneratorMemoryIssue" */ = {
+		FDF0CBD52822665F00E9ACC6 /* Build configuration list for PBXNativeTarget "UIImpactFeedbackGeneratorMemoryIssue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDF0CBD62822665F00E9ACC6 /* Debug */,
