@@ -19,21 +19,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let delay: TimeInterval = 0.0
-        var delayFactor = 0
-
         timers = impactFeedbackGenerators.map({ generator in
-            let timer = Timer.scheduledTimer(
-                timeInterval: 0.05 + delay * TimeInterval(delayFactor),
+            return .scheduledTimer(
+                timeInterval: 0.05,
                 target: generator,
                 selector: #selector(generator.impactOccurred as () -> Void),
                 userInfo: nil,
                 repeats: true
             )
-
-            delayFactor += 1
-
-            return timer
         })
     }
 
