@@ -6,8 +6,8 @@ Environment: iPhone 11 (iOS 15.4.1)
 How to reproduce:
 1. Select a **real device** target.
 2. Run an app.
-3. Open memory graph.
-4. Wait abount 20-30 minutes.
+3. Open a memory report screen.
+4. Wait about 20-30 minutes.
 
 ----
 
