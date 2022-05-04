@@ -4,6 +4,7 @@ A project that reproduce memory spike issue of UIImpactFeedbackGenerator
 Environment:
 * iPhone 11 iOS 15.4.1 (19E258)
 * iPhone 11 Pro iOS 15.4.1 (19E258)
+* iPhone XS iOS 15.4.1 (19E258)
 
 How to reproduce:
 1. Select a **real device** target.
