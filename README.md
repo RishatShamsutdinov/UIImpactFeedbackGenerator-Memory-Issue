@@ -1,13 +1,15 @@
 # UIImpactFeedbackGenerator-Memory-Issue
 A project that reproduce memory spike issue of UIImpactFeedbackGenerator
 
-Environment: iPhone 11 (iOS 15.4.1)
+Environment:
+* iPhone 11 iOS 15.4.1 (19E258)
+* iPhone 11 Pro iOS 15.4.1 (19E258)
 
 How to reproduce:
 1. Select a **real device** target.
 2. Run an app.
 3. Open a memory report screen.
-4. Wait about 20-30 minutes.
+4. Wait about 10 minutes.
 
 ----
 
