@@ -1,5 +1,5 @@
 # UIImpactFeedbackGenerator-Memory-Issue
-A project that reproduce memory spike issue of UIImpactFeedbackGenerator
+A project that reproduces a memory spike issue of UIImpactFeedbackGenerator
 
 Environment:
 * iPhone 11 iOS 15.4.1 (19E258)
