@@ -23,6 +23,7 @@ class ViewController: UIViewController {
             return .scheduledTimer(withTimeInterval: 0.05, repeats: true) { _ in
                 generator.impactOccurred()
 
+                // simulate background workload of a Unity engine
                 for _ in 0..<10 {
                     DispatchQueue.global().async {
                         for _ in 0...100 {
